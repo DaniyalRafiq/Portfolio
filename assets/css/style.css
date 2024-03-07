@@ -1061,6 +1061,15 @@ main {
 
 .project-item>a {
   width: 100%;
+  padding: 10px;
+  background: var(--onyx);
+  border-radius: 25px;
+  border: 1px solid var(--jet);
+  box-shadow: 0 16px 30px hsl(0deg 0% 0% / 0%);
+}
+
+.project-item>a:hover {
+  box-shadow: var(--shadow-1);
 }
 
 .project-img {
@@ -1070,6 +1079,7 @@ main {
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
+  border-radius: 20px !important;
 }
 
 .project-img::before {
