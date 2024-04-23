@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaniyalRafiq - Personal Portfolio</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="Daniyal  Rafiq" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Daniyal  Rafiq">Daniyal Rafiq</h1>
+          <p class="title">Front-end developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:richard@example.com" class="contact-link">daniyalrafiq111@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+12133522795" class="contact-link">+92 325 283 319 4</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">july 22, 2003</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Garden West, Karachi</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.instagram.com/daniyal_rafiq00/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/daniyal_rafiq00/" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/daniyal_rafiq00/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link " data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Hey! I'm Daniyal Rafiq, a skilled Front-End Developer proficient in HTML, CSS, JS, and more. My passion lies
+            in translating ideas into engaging digital experiences. With a diploma in Front-End Development, I bring a
+            blend of creativity and technical expertise to the table.
+          </p>
+          <p>
+            I'm not just about coding; I love creating YouTube content too. My journey involves staying ahead of
+            industry trends, fostering effective communication, and solving problems collaboratively. Let's connect and
+            turn your digital vision into reality!
+          </p>
+          <p>If you're seeking a Front-End Developer with a blend of creativity, technical acumen, and a dedication to
+            client satisfaction, I'm eager to contribute to the success of your projects. Let's collaborate and bring
+            your digital vision to reality. Thank you for considering my expertise!</p>
+        </section>
+        <!--
+          - service
+        -->
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">KMC College - Computer Science</h4>
+              <span>2023 — 2024</span>
+              <p class="timeline-text">
+                Successfully completed Commerce studies at S.M Arts and Commerce College.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Aptech Learning - Diploma of Frontend Developer</h4>
+              <span>2022 — </span>
+              <p class="timeline-text">
+                I am currently pursuing the Diploma of Frontend Developer at Aptech Learning, specializing in frontend
+                development. The program is still in progress.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Oxford Schooling System - Computer Science</h4>
+              <span>2019 — 2021</span>
+              <p class="timeline-text">
+                Studied Computer Science at Oxford Schooling System, focusing on various aspects of computer science.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Frontend Developer - Techonza Technology</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Serving as a Frontend Developer at Techonza Technology, contributing to technological advancements and
+                innovation in the field. I have one year of experience at Techonza Technology.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Design</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">jQuery</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind CSS</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <!-- <li class="filter-item">
+              <button data-filter-btn>HTML</button>
+            </li> -->
+            <!-- <li class="filter-item">
+              <button data-filter-btn>React App</button>
+            </li> -->
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Bootstrap</button>
+            </li> -->
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <!-- <li class="select-item">
+                <button data-select-item>HTML</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>React app</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Bootstrap</button>
+              </li> -->
+            </ul>
+          </div>
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/soon/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/cons.avif" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">under construction</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://sourcecodetesting.com/academic/daniyal/academic-01/index.php" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-20.png" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Academic 01</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+     
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-18/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-19.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 19</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-18/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-18.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 18</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-17/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-17.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 17</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-16/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-16.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 16</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-15/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-15.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 15</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-14/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-14.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 14</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-13/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-13.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 13</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-12/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-12.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 12</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-11/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-11.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 11</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-10/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-10.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehona 10</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-9/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.webp" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 9</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-8/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.webp" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 8</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-7/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.webp" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tehonza 7</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-6/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.webp" alt="metaspark" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 6</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-5/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.webp" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 5</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-4/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.webp" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 4</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-3/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.webp" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 3</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-2/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.webp" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 2</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="html">
+              <a href="https://daniyalrafiq.github.io/Techonza-1/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.webp" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Techonza 1</h3>
+                <p class="project-category">Website</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+
+  </main>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
