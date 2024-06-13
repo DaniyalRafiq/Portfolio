@@ -369,7 +369,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: linear-gradient(to right, #404040 0%, #444444 85%);
   border-radius: inherit;
   z-index: -1;
 }
@@ -1517,7 +1517,7 @@ textarea.form-input::-webkit-resizer {
     justify-content: center;
     box-shadow: var(--shadow-1);
     z-index: 1;
-    background: var(--border-gradient-onyx);
+    background: linear-gradient(to right, #58585a 0%, #747474 85%);
   }
 
   .avatar-box img {
