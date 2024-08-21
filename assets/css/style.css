@@ -242,7 +242,7 @@ article.active {
 .project-list-main {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
 }
 
