@@ -227,6 +227,25 @@ article.active {
   animation: fade 0.5s ease backwards;
 }
 
+.project-list-main .icon-box {
+  height: auto;
+  width: auto;
+  padding: 9px 23px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: scaleUp 1.9s  ease forwards;
+  transition-delay:2s ;
+  opacity: 0;
+}
+
+.project-list-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
 @keyframes fade {
   0% {
     opacity: 0;
@@ -1056,13 +1075,14 @@ main {
 
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 
 .project-item>a {
   width: 100%;
   padding: 10px;
-  background: var(--onyx);
+  background: var(--eerie-black-1);
   border-radius: 25px;
   border: 1px solid var(--jet);
   box-shadow: 0 16px 30px hsl(0deg 0% 0% / 0%);
@@ -1861,7 +1881,7 @@ textarea.form-input::-webkit-resizer {
     align-items: center;
     gap: 25px;
     padding-left: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .filter-item button {
@@ -1967,8 +1987,8 @@ textarea.form-input::-webkit-resizer {
     bottom: auto;
     top: 0;
     left: auto;
+    width: auto;
     right: 0;
-    width: max-content;
     border-radius: 0 20px;
     padding: 0 20px;
     box-shadow: none;
