@@ -39,9 +39,7 @@ for (let i = 0; i < selectItems.length; i++) {
 const filterItems = document.querySelectorAll("[data-filter-item]");
 
 const filterFunc = function (selectedValue) {
-
   for (let i = 0; i < filterItems.length; i++) {
-
     if (selectedValue === "all") {
       filterItems[i].classList.add("active");
     } else if (selectedValue === filterItems[i].dataset.category) {
@@ -49,10 +47,17 @@ const filterFunc = function (selectedValue) {
     } else {
       filterItems[i].classList.remove("active");
     }
-
+    let pans = document.querySelector('.project-list').children;
+    let current_count = 0;
+    for (let pan of pans) {
+      if (pan.classList.contains('active')) {
+        current_count++;
+      }
+    }
+    document.querySelector('.totoal-project').textContent = current_count;
   }
-
 }
+
 
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
